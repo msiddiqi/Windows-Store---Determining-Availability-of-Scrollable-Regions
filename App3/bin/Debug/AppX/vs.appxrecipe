@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MYPC</Machine>
+    <WindowsUser>Muhammad</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>27EB485A4FEA9BF73F37E14767356F4A45B113730FCCEA6CF48206732E3D3977</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>9861a979-a8de-491c-a053-66a6b53e8691_1.0.0.0_neutral__3xsta1dj00k6y</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>9861a979-a8de-491c-a053-66a6b53e8691_3xsta1dj00k6y!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>9861a979-a8de-491c-a053-66a6b53e8691</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Muhammad</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Muhammad\Documents\Visual Studio 2012\Projects\App3\App3\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-09T02:54:04.933</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Muhammad\Documents\Visual Studio 2012\Projects\App3\App3\bin\Debug\App3.exe">
+      <PackagePath>App3.exe</PackagePath>
+      <Modified>2014-03-09T02:59:56.354</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Muhammad\Documents\Visual Studio 2012\Projects\App3\App3\bin\Debug\App3.pdb">
+      <PackagePath>App3.pdb</PackagePath>
+      <Modified>2014-03-09T02:59:56.319</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Muhammad\Documents\Visual Studio 2012\Projects\App3\App3\Assets\HorizontalPlacementCalculation.png">
+      <PackagePath>Assets\HorizontalPlacementCalculation.png</PackagePath>
+      <Modified>2014-03-08T20:33:00.634</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Muhammad\Documents\Visual Studio 2012\Projects\App3\App3\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T01:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Muhammad\Documents\Visual Studio 2012\Projects\App3\App3\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T01:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Muhammad\Documents\Visual Studio 2012\Projects\App3\App3\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T01:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Muhammad\Documents\Visual Studio 2012\Projects\App3\App3\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T01:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Muhammad\Documents\Visual Studio 2012\Projects\App3\App3\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2014-03-08T20:31:05.625</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Muhammad\Documents\Visual Studio 2012\Projects\App3\App3\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T21:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Muhammad\Documents\Visual Studio 2012\Projects\App3\App3\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2014-03-09T02:59:55.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Muhammad\Documents\Visual Studio 2012\Projects\App3\App3\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-03-09T02:54:04.780</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

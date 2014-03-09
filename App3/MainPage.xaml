@@ -1,0 +1,58 @@
+﻿<Page
+    x:Class="ScrollViewerApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App3"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:converters="using:ScrollViewerApp.Converters"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="Brown"/>
+            <Setter Property="FontSize" Value="25" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="TextAlignment" Value="Center" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+        </Style>
+        
+        <converters:ScrollablePropertyVisibilityConverter x:Key="conv" />
+    </Page.Resources>
+        <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <!--<Border Height="50" Grid.ColumnSpan="2"
+                Background="LightBlue"
+                Grid.Row="0" Grid.Column="0" 
+                Visibility="{Binding ElementName=ImageArea, Path=ComputedHorizontalScrollBarVisibility}">
+            <TextBlock Text="Pan &amp; Zoom Hidden Image parts"  />
+        </Border>-->
+        <Border Height="50" Grid.ColumnSpan="2"
+                Background="LightBlue"
+                Grid.Row="0" Grid.Column="0" 
+                Visibility="{Binding ElementName=ImageArea, Path=ScrollableWidth, Converter={StaticResource conv}}">
+            <TextBlock Text="Pan &amp; Zoom Hidden Image parts"  />
+        </Border>
+        <Border Grid.Column="0" Grid.Row="1" Background="LightGreen"
+                Visibility="{Binding ElementName=ImageArea, Path=ScrollableHeight, Converter={StaticResource conv}}"
+                Width="100" >
+            <TextBlock Text="Vertical Pan &amp; Zoom" />
+        </Border>
+        
+        <ScrollViewer ZoomMode="Enabled"
+                      HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto"
+                      Grid.Row="1" Grid.Column="1"  x:Name="ImageArea">
+            <Image Source="ms-appx:/Assets/HorizontalPlacementCalculation.png" 
+                   Width="500" Height="500"
+                   />
+        </ScrollViewer>
+    </Grid>
+</Page>
